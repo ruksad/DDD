@@ -4,15 +4,3 @@ spring:
     console:
       enabled: true
       path: /h2-console
-  datasource:
-    url: jdbc:h2:mem:testdb
-    driverClassName: org.h2.Driver
-    username: sa
-    password: sa
-  jpa.database-platform: org.hibernate.dialect.H2Dialect
-  application:
-    name: learn_ddd_onDocker
-
-axon:
-  axonserver:
-    servers: "${AXONSERVER_HOST}:8124"
