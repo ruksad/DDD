@@ -17,5 +17,8 @@
 
 # Docker contains 
 1. Image of axon server 
-2. And then it boots spring boot application
-```docker-compose up --build```
+2. And then it boots spring boot application ```docker-compose up --build```
+3. http://localhost:8081  -- spring boot application
+4. http://localhost:8024 -- axon server
+5. http://localhost:8081/swagger-ui.html
+6. http://localhost:8081/h2-console
